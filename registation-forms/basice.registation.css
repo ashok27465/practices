@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+body{
+    background-image: url(background-image_1.jpg);
+}
+.form-center{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: #9a8499;
+    width: 50%;
+    padding-bottom: 65px;
+    opacity:0.8;
+}
+#input-label{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type=text],[type=email],[type=number],[type=password]{
+    width: 50%;
+    border-radius: 8px;
+    padding: 5px;
+}
+button{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.reg-form{
+    background-color: rgb(199, 186, 186);
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,44 @@
+* {padding: 0; margin: 0;}
+body{
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    background-color:azure;
+    position:absolute;
+    text-align: center;
+    border-radius: 30px;
+    left:30%;
+    width:40vw;
+    height:48vh;
+    top: 20%;
+    opacity:1;
+}
+.user,.password{
+    height: 20px;
+    width: 180px;
+    padding: 5px;
+    font-size: large;
+}
+#user,#password{
+    height: 20px;
+    width: 180px;
+    padding: 10px;
+    margin: 4px;
+}
+a{
+    margin-left: 70px;
+    text-decoration: none;
+}
+button{
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+    color: rgba(2, 30, 54, 0.871);
+}

@@ -1,0 +1,20 @@
+*{padding: 0; margin: 0;}
+.container{
+    margin:100px 0 0 200px;
+    height: 250px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-left: 25%;
+}
+.container img{
+    width: 15%;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: all ease-in-out 0.5s;
+}
+.container img:hover {
+    width:60%;
+}

@@ -1,0 +1,28 @@
+*{ margin: 0; padding: 0;}
+.wraper{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    overflow:hidden;
+    border: 6px solid #fff;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.wraper img{
+    height: 115%;
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.wraper img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+h2{
+    text-transform: capitalize;
+    text-decoration:double underline ;
+    text-align: center;
+    margin-top: 5px;
+}
